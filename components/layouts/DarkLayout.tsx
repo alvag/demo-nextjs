@@ -1,4 +1,6 @@
-const DarkLayout = ({ children }) => {
+import { FC, PropsWithChildren } from 'react';
+
+const DarkLayout: FC<PropsWithChildren<unknown>> = ( { children } ) => {
     return (
         <div style={ {
             backgroundColor: 'rgba(0,0,0,0.3)',
